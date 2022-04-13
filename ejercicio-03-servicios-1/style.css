@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:azure;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h1{
+    font-size: 42px;
+    padding-top: 2%;
+    color:rgb(33, 32, 32);    
+}
+
+h2{
+    font-size: 18px;
+    
+}
+
+p{
+    padding-top: 3%;
+    color: grey;
+    font-size: 14px;
+}
+
+.service{
+    display: flex;
+    padding: 4%  0 2% 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.services ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.services li{
+    background-color: aliceblue;
+    width: 35%;
+    padding: 1%;
+    
+}
+
+i{
+    background-color:slateblue;
+    padding: 3%;
+    color: white;
+    border-radius: 12%;
+    margin-bottom: 5%;
+    font-size: 150%;  
+    
+}
+
+
+@media(max-width:450px){
+    
+    .services ul{
+        flex-direction: column;
+        align-items:center;
+       
+             
+    }
+
+   
+}
